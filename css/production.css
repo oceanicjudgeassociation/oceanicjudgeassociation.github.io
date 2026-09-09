@@ -1456,3 +1456,143 @@ hr {
         text-align: center;
     }
 }
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #da6e26;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 1.1em;
+}
+
+.step {
+    background: #f8f9fa;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #da6e26;
+    border-radius: 5px;
+}
+
+.step-number {
+    display: inline-block;
+    background: #da6e26;
+    color: white;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 1.1em;
+}
+
+.step-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #3a322d;
+    margin-bottom: 10px;
+}
+
+.step-content {
+    margin-left: 50px;
+    color: #555;
+}
+
+.substeps {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.substep {
+    margin: 8px 0;
+    padding-left: 15px;
+    position: relative;
+}
+
+.substep:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #da6e26;
+    font-weight: bold;
+}
+
+.resources {
+    background: #e8f4f8;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.resources h2 {
+    margin-top: 0;
+    color: #da6e26;
+}
+
+.resource-link {
+    display: block;
+    padding: 12px 15px;
+    margin: 10px 0;
+    background: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #da6e26;
+    font-weight: 500;
+    transition: all 0.3s;
+    border: 2px solid #da6e26;
+}
+
+.resource-link:hover {
+    background: #da6e26;
+    color: white;
+}
+
+.highlight {
+    background: #fff3cd;
+    padding: 15px;
+    border-left: 4px solid #ffc107;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.success-box {
+    background: #d4edda;
+    border: 2px solid #28a745;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.success-box h3 {
+    color: #155724;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    .step-content {
+        margin-left: 0;
+    }
+}
